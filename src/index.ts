@@ -3,6 +3,8 @@
 // SCHEMA env var picks which DB schema's nodes to load (kernel/claude/groq/...).
 import fastify from 'fastify';
 import { Client } from 'pg';
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
 
 async function main() {
   const dbUrl = process.env.DATABASE_URL;
