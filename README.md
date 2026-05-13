@@ -1,2 +1,3 @@
-# memelli-groq-team-shell
-Team shell — universal hot-load formula. Schema-driven via SCHEMA env.
+# memelli-groq-team-shell — RAIL INSTANCE (twin of claude-team-shell)
+
+Same surface, parallel deploy. Operator: Mel.
